@@ -1,0 +1,54 @@
+body
+{
+	background-color: lightskyblue;
+}
+h1
+{
+	text-align: center;
+	background-color: cadetblue;
+	font-family: comic sans-serif;
+	font-size: 30px;
+	color: lightgoldenrodyellow;
+}
+table, th, td, tr
+{
+	border: 3px solid transparent;
+	border-collapse: collapse;
+}
+th,td
+{
+	padding: 100px;
+}
+th
+{
+	text-align: right;
+	font-family: copperplate;
+	font-size: 25px;
+	color: white;
+}
+td
+{
+	text-align: center;
+	background-color: lightcoral;
+	font-family: times new roman;
+	font-size: 80px;
+	color: brown;
+}
+a:link
+		{
+			color: beige;
+			background-color: transparent;
+			text-decoration: none;
+		}
+		a:visited
+		{
+			color: beige;
+			background-color: transparent;
+			text-decoration: none;
+		}
+		a:hover, a:active
+		{
+			color: beige;
+			background-color: transparent;
+			text-decoration: underline;
+		}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Html javascript</title>
+</head>
+
+<body>
+
+	<h2>javascripts change content</h2>
+
+	<p id="content1">I am using Javascript to change the content</p>
+
+	<button type="button" onclick='document. getElementById("content1"). innerHTML="this is the second content. Changed using Javascripts" '>change content</button>
+
+	<h2>Javascript change style</h2>
+
+	<p id="style1">This content is using javascript to change the style</p>
+
+	<script>
+		function myStyle()
+		{
+			document.getElementById("style1").style.fontSize = "28px" ;
+			document.getElementById("style1").style.fontFamily = "papyrus" ;
+			document.getElementById("style1").style.color = "maroon" ;
+			document.getElementById("style1").style.backgroundColor = "pink" ;
+		}
+	</script>
+
+	<button type="button" onclick="myStyle()">Change style</button>
+
+    <h2>Javascript manipulate images/attributes</h2>
+     
+    <script>
+       function myPicture(a)
+       {
+       	 var pic;
+       	 if (a==0)
+       	 {
+       	 	pic="images/SETH1.jpg"
+       	 }
+       	 else
+       	 {
+       	 	pic="images/RA1.jpg"
+       	 }
+       	 document.getElementById('gambar Seth').src=pic;	
+       }	
+    </script>
+
+    <img src="images/SETH1.jpg" id="gambar Seth" width="30%px" height="30%">
+
+    <p>
+    	<button type="button" onclick="myPicture(0)">Seth</button>
+    	<button type="button" onclick="myPicture(1)">Ra</button>
+    </p>
+
+    <h2>Alert box</h2>
+
+    <button type="button" onclick="AlertBox()">click here</button>
+    <script>
+    	function AlertBox()
+    	{
+    		alert("Hello. \nWelcome to my page dawgs !!!")
+    	}
+    </script>
+
+    <script>
+    	 AlertBox()
+    	{
+    		alert("Hello. \nWelcome to my page dawgs !!!")
+    	}
+    </script>
+</body>
+</html>

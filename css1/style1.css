@@ -1,0 +1,45 @@
+body
+{
+	background-color: powderblue;
+}
+h1
+{
+	text-align: center;
+}
+h3
+{
+	font-family: fantasy;
+	font-size: 20px;
+	border: 3px;
+	border-style: solid black;
+}
+p
+{
+	font-size: 15px;
+	color: whitesmoke;
+
+}
+table,th,td,tr 
+{
+	border: 2px;
+	border-style: solid;
+	border-color: deeppink;
+	border-collapse: collapse;
+}
+th
+{
+	background-color: whitesmoke;
+}
+td
+{
+	text-align: center;
+}
+tr:hover
+{
+	background-color: limegreen;
+	color: skyblue;
+	border: 3px;
+	border-style: solid;
+	border-color: maroon;
+
+}
